@@ -1,0 +1,68 @@
+// Newton Second Law
+
+STORE "result" without value
+STORE "m" with number 600
+STORE "a" with number 2
+CALCULATE "m" times "a"
+STORE calculation in "result"
+SHOW "result"
+
+// Tahun Kabisat
+
+/*Algoritma*/
+
+1. Buat variable tahun
+2. Simpan angka 2019 didalam varible tahun
+3. Jika variable tahun habis dibagi 4 dan tidak habis dibagi 100, Atau Tahun tersebut habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400
+4. Maka tahun tersebut adalah tahun kabisat
+
+
+/*Pseudocode*/
+STORE "year" with number 2019;
+IF "year" modulus 4 equals to 0 AND "year" modulus 100 not equals to 0
+    DISPLAY "Tahun Kabisat"
+ELSE IF "year" modulus 4 equals to 0 AND "year" modulus 100 equals to 0 AND "year" modulus 400 equals to "0"
+    DISPLAY "Tahun Kabisat"
+ENDIF    
+
+// Laundry Day 
+
+/*Algoritma*/
+1. Buat variable amount dengan isi 20
+2. Buat variable total dengan isi 0
+3. Buat variable mesin cuci dengan nilai false
+3. Jika total masih lebih kecil daripada amount maka nilai total akan dinaikan 1
+4. Jika total sudah sama dengan amount maka mesin cuci akan menjadi true
+
+/*Pseudocode*/
+STORE "amount" with number 20
+STORE "total" with number 0
+STORE "mesincuci" with false
+WHILE total less than amount
+    "total" increment
+ENDWHILE
+IF total equals to amount
+    STORE "mesincuci" with true
+ENDIF
+
+// Periksa Kuku
+
+/*Algoritma*/
+1. Guru masuk kekelas
+2. Guru mengumumkan akan memeriksa satu-satu kuku murid di kelas itu
+3. Murid akan menaruh semua jari-jari mereka di meja untuk diperlihatkan kepada guru 
+4. Guru akan melakukan pengecekan kepada semua murid
+5. Jika guru menemukan kuku murid yang sudah panjang maka guru menghukum murid tersebut
+6. Jika tidak panjang maka guru akan memberikan pujian kepada murid tersebut
+
+/*Pseudocode*/
+STORE "murid" with number 40
+STORE "counter" with number 0
+WHILE "counter" lesser than "murid"
+    "counter" increment
+    IF "murid" equals to kuku panjang
+        DISPLAY "Kena Hukuman"
+    ELSE
+        DISPLAY "Dapat Pujian"
+    ENDIF
+ENDWHILE
